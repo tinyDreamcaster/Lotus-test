@@ -11,10 +11,10 @@ function App() {
   const testRef = useRef();
 
   const users = [
-    { id: 1, username: 'USER1', activities: "-", productionTime: '80', warranty: '24', paymentTerms: '30%', lotPrice: 3700000, lotPrice2: -25000, userTurn: true },
-    { id: 2, username: 'USER2', activities: "-", productionTime: '90', warranty: '24', paymentTerms: '100%', lotPrice: 3200000, lotPrice2: -25000, userTurn: false },
-    { id: 3, username: 'USER3', activities: "-", productionTime: '75', warranty: '22', paymentTerms: '60%', lotPrice: 2800000, lotPrice2: -25000, userTurn: false },
-    { id: 4, username: 'USER4', activities: "-", productionTime: '120', warranty: '36', paymentTerms: '50%', lotPrice: 2500000, lotPrice2: -25000, userTurn: false },
+    { id: 1, username: 'USER1', activities: "-", productionTime: '80', warranty: '24', paymentTerms: '30%', lotPrice: 3700000, lotPrice2: -25000 },
+    { id: 2, username: 'USER2', activities: "-", productionTime: '90', warranty: '24', paymentTerms: '100%', lotPrice: 3200000, lotPrice2: -25000},
+    { id: 3, username: 'USER3', activities: "-", productionTime: '75', warranty: '22', paymentTerms: '60%', lotPrice: 2800000, lotPrice2: -25000},
+    { id: 4, username: 'USER4', activities: "-", productionTime: '120', warranty: '36', paymentTerms: '50%', lotPrice: 2500000, lotPrice2: -25000},
   ]
 
   const Completionist = () => {
