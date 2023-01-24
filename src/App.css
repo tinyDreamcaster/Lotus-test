@@ -2,15 +2,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+.pageTitle {
+    font-family: sans-serif;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;
+    color: red;
+}
+
+.pageSubtitle {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 0, 0, 0.1);
+    max-width: max-content;
+    color: red;
+} 
 
 .aucTable {
+    margin-left: 1rem;
     border-spacing: 0px;
     border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+
 }
 
-.aucTable,
-.aucTable td {
-    border: 1px solid black;
+.aucTable__title, aucTable__header {
+    color: rgba(0, 0, 255, 0.5);
 }
 
+.aucTable__header {
+    padding: 2rem;
+}
+
+.aucTable__timer {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: red;
+    padding: 0.5rem 3rem;
+    text-align: center;
+}
+
+.aucTable__cells:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.aucTable__cells td:first-child {
+    text-align: left;
+    max-width: 20rem;
+}
+
+.aucTable__cells td {
+    padding: 0.5rem;
+}
+
+.aucTable__activities {
+    border-top: 1px solid gray;
+}
+
+.aucTable__price p:nth-child(1),
+.aucTable__price p:nth-child(2) {
+    margin-bottom: 0.5rem;
+}
+
+.priceReduced {
+    color: blue;
+}
+
+.priceSubtracted {
+    color: rgb(165, 0, 0);
+}
+
+.priceDifference {
+    color: green;
+}
+
+.actions {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
